@@ -22,7 +22,8 @@ So many great books lists for computation and R. Here is a brief list scraped fr
 
 ```{r, blogs, warning=FALSE, message=FALSE}
 library(tidyverse)
-blogs <- read_csv("data/blogs.csv")
+blogs <- read_csv("data/blogs.csv") %>%
+  arrange(desc(count))
 knitr::kable(blogs[1:10, ])
 
 ```
@@ -31,7 +32,7 @@ knitr::kable(blogs[1:10, ])
 The Web of Science also shockingly now indexes citations to books.  
 ```{r, citations, warning=FALSE, message=FALSE}
 library(tidyverse)
-citations <- read_csv("data/citations.csv")
+citations <- read_csv("data/citations.csv") 
 knitr::kable(citations[1:10, ])
 
 ```
