@@ -135,7 +135,7 @@ $(document).ready(function () {
 <div id="lists" class="section level3">
 <h3>Lists</h3>
 <p><strong>Blogs</strong><br />
-So many great books lists for computation and R. Here is a brief list scraped from blog posts captured by <a href="https://www.r-bloggers.com">R-bloggers</a>.</p>
+So many great books lists for computation and R. Here is a brief list scraped from blog posts captured by <a href="https://www.r-bloggers.com">R-bloggers</a>. Note - lists per post can vary in length with the mode at approx 10 books per list.</p>
 <pre class="r"><code>library(tidyverse)
 blogs &lt;- read_csv(&quot;data/blogs.csv&quot;) %&gt;%
   arrange(desc(count))

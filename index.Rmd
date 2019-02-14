@@ -18,7 +18,7 @@ To explore R books. How we use them, value them, and discuss them.
 
 ###Lists  
 **Blogs**  
-So many great books lists for computation and R. Here is a brief list scraped from blog posts captured by [R-bloggers](https://www.r-bloggers.com).   
+So many great books lists for computation and R. Here is a brief list scraped from blog posts captured by [R-bloggers](https://www.r-bloggers.com).   Note - lists per post can vary in length with the mode at approx 10 books per list.  
 
 ```{r, blogs, warning=FALSE, message=FALSE}
 library(tidyverse)
