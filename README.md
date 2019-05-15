@@ -11,9 +11,9 @@ By Stefano Allesina and Madlen Wilmes
 https://press.princeton.edu/titles/13268.html
  
 What Chris says:
--      This book is like a toolbox
--      Task oriented
--      help to choose what tool to use to match the task you need to accomplish
+- This book is like a toolbox
+- Task oriented
+- help to choose what tool to use to match the task you need to accomplish
  
 You might also like: 
 Practical computing for biologist: https://practicalcomputing.org 
@@ -60,7 +60,7 @@ Great intro both to Keras and how to use it from R
   
 You might also like: 
 Allaire’s keynote on tensorFlow: https://www.rstudio.com/resources/videos/machine-learning-with-tensorflow-and-r/ 
-
+
 ### Course: Statistics in R on edx.org
 https://www.edx.org/course/statistics-r-harvardx-ph525-1x-1 
 
